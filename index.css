@@ -1,0 +1,64 @@
+.home-container {
+  height: 100vh;
+  background: linear-gradient(to bottom, #87ceeb, #e0f7fa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Clouds animation */
+.home-container::before,
+.home-container::after {
+  content: "☁️";
+  font-size: 5rem;
+  position: absolute;
+  animation: float 15s linear infinite;
+}
+.home-container::before {
+  top: 10%;
+  left: -10%;
+}
+.home-container::after {
+  top: 40%;
+  right: -10%;
+}
+@keyframes float {
+  from { transform: translateX(0); }
+  to { transform: translateX(120vw); }
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px 40px;
+  background: white;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}

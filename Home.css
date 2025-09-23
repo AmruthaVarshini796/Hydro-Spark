@@ -1,0 +1,69 @@
+/* Home.css */
+
+/* Import Google Font - Playfair Display */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.main-container {
+  min-height: 100vh;
+  /* Change the URL here to your desired image */
+  background-image: url("C:\Users\varsh\Downloads\freepik__the-style-is-candid-image-photography-with-natural__67785.png"); 
+  background-size: cover;
+  background-position: center;
+  background-color: #7598a3; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  padding: 20px;
+}
+
+.main-heading {
+  /* Dark color from the image */
+  color: black; 
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 80px; /* Space between heading and cards */
+}
+
+.cards-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: skyblue;
+  border-radius: 15px;
+  color: black;
+  padding: 40px;
+  width: 400px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  /* Darker color for the title */
+  color: black;
+}
+
+.card-description {
+  opacity: 0.8;
+  line-height: 1.5;
+}

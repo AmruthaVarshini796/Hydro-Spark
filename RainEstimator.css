@@ -1,0 +1,14 @@
+.leaflet-control-geosearch {
+  z-index: 2000 !important;
+}
+
+.leaflet-control-geosearch .results {
+  position: absolute;
+  z-index: 3000 !important;
+  background: white;
+  color: black;
+  border-radius: 6px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
