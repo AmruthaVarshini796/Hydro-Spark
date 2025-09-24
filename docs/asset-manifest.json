@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hydro-Spark/static/css/main.f2fc610b.css",
+    "main.js": "/Hydro-Spark/static/js/main.5f4992ef.js",
+    "static/media/freepik__the-style-is-candid-image-photography-with-natural__67785.png": "/Hydro-Spark/static/media/freepik__the-style-is-candid-image-photography-with-natural__67785.300e73e7a2a418021601.png",
+    "static/media/spritesheet.svg": "/Hydro-Spark/static/media/spritesheet.a4e0eb7ad904a4858361.svg",
+    "index.html": "/Hydro-Spark/index.html",
+    "main.f2fc610b.css.map": "/Hydro-Spark/static/css/main.f2fc610b.css.map",
+    "main.5f4992ef.js.map": "/Hydro-Spark/static/js/main.5f4992ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2fc610b.css",
+    "static/js/main.5f4992ef.js"
+  ]
+}
